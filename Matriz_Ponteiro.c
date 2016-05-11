@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define CRIADOR: Marcos Aquino
-#define Algortimo para ler uma matriz e imprimir a linha que possuir o menor valor.
+#define Algoritmo para ler uma matriz e imprimir a linha que possuir o menor valor.
 
-// Algoritmo para aprendizagem da manipulação de Matriz e ponteiro.
+// Algoritmo para aprendizagem da manipulaÃ§Ã£o de Matriz e ponteiro.
 
 int main(){
 
@@ -11,7 +11,7 @@ int main(){
    i, j, menor, m;
    int *p = &m;
 
-// Bloco para preencher a matriz com numeros aleatórios //
+// Bloco para preencher a matriz com numeros aleatÃ³rios //
    for (i = 0; i <3; i++){
        for(j = 0; j<3; j++){
 
@@ -33,7 +33,7 @@ int main(){
        }
         puts("");
     }
-// Bloco para mostrar a linha que contém o menor numero.
+// Bloco para mostrar a linha que contÃ©m o menor numero.
     puts("");
     printf("Linha com o menor valor ");
 	for (j=0; j < 3; j++)
